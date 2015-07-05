@@ -1,0 +1,38 @@
+{%- set cc = cookiecutter -%}
+{
+  "name": "ivoire-{{ cc.repo_name }}",
+  "version": "{{ cc.version }}",
+  "description": "A plugin for the Ivoire random number generator framework.",
+  "main": "lib/ivoire-{{ cc.repo_name }}.js",
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreamhorn/{{ cc.repo_name }}.git"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "generator"
+  ],
+  "author": "{{ cc.full_name }} <{{ cc.email }}>",
+  "license": "{{ cc.license }}",
+  "bugs": {
+    "url": "https://github.com/dreamhorn/ivoire-{{ cc.repo_name }}/issues"
+  },
+  "homepage": "https://github.com/dreamhorn/ivoire-{{ cc.repo_name }}",
+  "peerDependencies": {
+    "ivoire": "1.x"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "coffee-script": "^1.9.3",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "ivoire": "1.x",
+    "lodash": "3.x"
+  }
+}
