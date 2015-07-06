@@ -1,6 +1,6 @@
 {%- set cc = cookiecutter -%}
 var chai = require('chai');
-var Ivoire = require("ivoire-{{ cc.repo_name }}");
+var Ivoire = require("./lib/ivoire-{{ cc.repo_name }}");
 
 chai.should();
 
