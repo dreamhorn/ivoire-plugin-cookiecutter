@@ -50,7 +50,7 @@ available on all `Ivoire` instances.
 
 TODO: Add API reference
 
-### #method(arg)
+### Ivoire.prototype.TODO(arg)
 
 TODO: Describe methods
 
