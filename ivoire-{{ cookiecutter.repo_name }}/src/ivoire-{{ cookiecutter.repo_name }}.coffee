@@ -4,7 +4,7 @@ _ = require('lodash')
 
 
 # TODO: Write methods!
-Ivoire.prototype.FIXME = () ->
+Ivoire.prototype.TODO = () ->
   return null
 
 
