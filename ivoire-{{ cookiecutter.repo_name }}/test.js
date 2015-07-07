@@ -6,10 +6,10 @@ chai.should();
 
 describe('ivoire-{{ cc.repo_name }}', function () {
   var seed = 42
-  var i;
+  var ivoire;
 
   beforeEach(function(){
-    i = new Ivoire({seed: seed});
+    ivoire = new Ivoire({seed: seed});
   });
 
   describe('#method()', function () {

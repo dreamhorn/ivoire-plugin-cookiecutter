@@ -37,7 +37,7 @@ require('ivoire-{{ cc.repo_name }}');
 Either way, instantiate and start rolling!
 
 ```
-var i = new Ivoire();
+var ivoire = new Ivoire();
 // TODO: Show example
 ```
 
@@ -55,7 +55,7 @@ TODO: Add API reference
 TODO: Describe methods
 
 ```
-var i = new require('ivoire-{{ cc.repo_name }}');
+var ivoire = new require('ivoire-{{ cc.repo_name }}');
 
 // TODO: Give usage examples
 ```
