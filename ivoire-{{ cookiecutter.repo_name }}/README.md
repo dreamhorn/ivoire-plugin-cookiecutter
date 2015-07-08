@@ -6,6 +6,11 @@ A plugin for the [Ivoire](https://www.npmjs.com/package/ivoire) random number
 generator framework.
 
 
+- [Installing](#installing)
+- [Getting Started](#getting-started)
+- [Reference](#reference)
+
+
 Installing
 ----------
 
