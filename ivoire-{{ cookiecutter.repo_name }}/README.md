@@ -55,7 +55,15 @@ available on all `Ivoire` instances.
 
 TODO: Add API reference
 
-### Ivoire.prototype.TODO(arg)
+- [`#TODO()`](#TODO')—TODO
+
+### #TODO()
+
+#### Syntax
+
+    ivoire.TODO(arg)
+
+#### Usage
 
 TODO: Describe methods
 
